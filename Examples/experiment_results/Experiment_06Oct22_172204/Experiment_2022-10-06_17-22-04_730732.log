@@ -1,0 +1,169 @@
+2022-10-06 17:22:04.735 | INFO     | Chemingon.core.experiment:start_master_operators:257 - Experiment started with dry run = False
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: dum3 connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: dum2 connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum1: dum1 connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens2: Opened
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dummy combined: Connecting
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 2: combined dum 2 connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 1: combined dum 1 connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dumSen 1: Opened
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: Public Dum connected
+2022-10-06 17:22:04.736 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens1: Opened
+2022-10-06 17:22:04.737 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: dum4 connected
+2022-10-06 17:22:04.737 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens2: Sensor sens2: data will be saved as experiment_results/Experiment_06Oct22_172204/sens2_06Oct22_172204.csv
+2022-10-06 17:22:04.738 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens1: Sensor sens1: data will be saved as experiment_results/Experiment_06Oct22_172204/sens1_06Oct22_172204.csv
+2022-10-06 17:22:04.739 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dumSen 1: Sensor combined dumSen 1: data will be saved as experiment_results/Experiment_06Oct22_172204/combined dumSen 1_06Oct22_172204.csv
+2022-10-06 17:22:05.243 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol4: started
+2022-10-06 17:22:05.244 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol1: started
+2022-10-06 17:22:05.244 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4: executing do_something on dummy combined
+2022-10-06 17:22:05.244 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol2: started
+2022-10-06 17:22:05.244 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol3: started
+2022-10-06 17:22:05.245 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol1: executing delay on Virtual Operation
+2022-10-06 17:22:05.245 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyCombinedDevice dummy combined executing do_something with arguments {}; Description: None
+2022-10-06 17:22:05.245 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol2: executing delay on Virtual Operation
+2022-10-06 17:22:05.245 | INFO     | Chemingon.core.experiment:_execute_protocol:416 - Protocol test protocol3: blocking public components
+2022-10-06 17:22:05.853 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: Occupied by protocol test protocol3
+2022-10-06 17:22:05.975 | INFO     | Chemingon.core.experiment:_execute_protocol:434 - Protocol test protocol3: public components ready
+2022-10-06 17:22:05.976 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:05.976 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:06.245 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol2: executing do_something on Public Dum
+2022-10-06 17:22:06.246 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol1: executing do_something on Public Dum
+2022-10-06 17:22:06.997 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 1: doing combined dum 1 doing: i = 0
+2022-10-06 17:22:07.705 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:09.065 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:09.065 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:09.065 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:09.065 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:09.519 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 1: doing combined dum 1 doing: i = 1
+2022-10-06 17:22:09.519 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 1: device combined dum 1 done!
+2022-10-06 17:22:10.785 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:12.928 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 2: doing combined dum 2 doing: i = 0
+2022-10-06 17:22:13.222 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:13.222 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:13.222 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:13.223 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:13.995 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 2: doing combined dum 2 doing: i = 1
+2022-10-06 17:22:13.995 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 2: device combined dum 2 done!
+2022-10-06 17:22:13.995 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4: executing do_something on dum4
+2022-10-06 17:22:13.995 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4'}; Description: None
+2022-10-06 17:22:16.156 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:16.534 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 0
+2022-10-06 17:22:17.556 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:17.557 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:17.557 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on Public Dum
+2022-10-06 17:22:17.616 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent Public Dum executing do_something with arguments {'output': 'protocol3 public'}; Description: None
+2022-10-06 17:22:18.721 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 1
+2022-10-06 17:22:18.721 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:18.721 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4: executing do_something on dum4
+2022-10-06 17:22:18.721 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4'}; Description: None
+2022-10-06 17:22:20.040 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol3 public: i = 0
+2022-10-06 17:22:21.703 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 0
+2022-10-06 17:22:21.899 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol3 public: i = 1
+2022-10-06 17:22:21.900 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: device Public Dum done!
+2022-10-06 17:22:21.909 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:21.909 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:23.362 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:24.301 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 1
+2022-10-06 17:22:24.302 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:24.302 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4: executing do_something on dum4
+2022-10-06 17:22:24.302 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4'}; Description: None
+2022-10-06 17:22:25.185 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:25.185 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:25.186 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing delay on Virtual Operation
+2022-10-06 17:22:25.344 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 0
+2022-10-06 17:22:26.387 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 1
+2022-10-06 17:22:26.388 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:26.388 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4: executing do_something on dum4
+2022-10-06 17:22:26.388 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4'}; Description: None
+2022-10-06 17:22:27.673 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 0
+2022-10-06 17:22:30.074 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4: i = 1
+2022-10-06 17:22:30.074 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:30.074 | INFO     | Chemingon.core.experiment:_execute_protocol:443 - protocol test protocol4 executing sub protocol: test protocol4-1
+2022-10-06 17:22:30.075 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol4-1: started
+2022-10-06 17:22:30.075 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4-1: executing do_something on dum4
+2022-10-06 17:22:30.075 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4-1 a'}; Description: None
+2022-10-06 17:22:30.190 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:30.191 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:31.467 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1 a: i = 0
+2022-10-06 17:22:32.602 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1 a: i = 1
+2022-10-06 17:22:32.603 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:32.603 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4-1: executing do_something on dum4
+2022-10-06 17:22:32.603 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4-1 b'}; Description: None
+2022-10-06 17:22:33.192 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:33.793 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1 b: i = 0
+2022-10-06 17:22:34.626 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:34.626 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:34.626 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol3: executing do_something on dum3
+2022-10-06 17:22:34.627 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum3 executing do_something with arguments {'output': 'protocol 3'}; Description: None
+2022-10-06 17:22:35.506 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1 b: i = 1
+2022-10-06 17:22:35.506 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:35.506 | INFO     | Chemingon.core.experiment:_execute_protocol:443 - protocol test protocol4-1 executing sub protocol: test protocol4-1-1
+2022-10-06 17:22:35.506 | INFO     | Chemingon.core.experiment:_execute_protocol:414 - Protocol test protocol4-1-1: started
+2022-10-06 17:22:35.507 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4-1-1: executing do_something on dum4
+2022-10-06 17:22:35.507 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4-1-1 a'}; Description: None
+2022-10-06 17:22:36.172 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 0
+2022-10-06 17:22:37.503 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: doing protocol 3: i = 1
+2022-10-06 17:22:37.503 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: device dum3 done!
+2022-10-06 17:22:37.503 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol3: finished
+2022-10-06 17:22:37.706 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent Public Dum executing do_something with arguments {'output': 'protocol2 public'}; Description: None
+2022-10-06 17:22:38.065 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1-1 a: i = 0
+2022-10-06 17:22:40.484 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol2 public: i = 0
+2022-10-06 17:22:40.834 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1-1 a: i = 1
+2022-10-06 17:22:40.834 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:40.834 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol4-1-1: executing do_something on dum4
+2022-10-06 17:22:40.834 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum4 executing do_something with arguments {'output': 'protocol 4-1-1 b'}; Description: None
+2022-10-06 17:22:41.869 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol2 public: i = 1
+2022-10-06 17:22:41.869 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: device Public Dum done!
+2022-10-06 17:22:41.880 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol2: executing do_something on dum2
+2022-10-06 17:22:41.880 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum2 executing do_something with arguments {'output': 'protocol 2'}; Description: None
+2022-10-06 17:22:41.901 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1-1 b: i = 0
+2022-10-06 17:22:41.975 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent Public Dum executing do_something with arguments {'output': 'protocol 1 public device'}; Description: None
+2022-10-06 17:22:43.163 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol 1 public device: i = 0
+2022-10-06 17:22:44.050 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: doing protocol 4-1-1 b: i = 1
+2022-10-06 17:22:44.050 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: device dum4 done!
+2022-10-06 17:22:44.050 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol4-1-1: finished
+2022-10-06 17:22:44.050 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol4-1: finished
+2022-10-06 17:22:44.050 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol4: finished
+2022-10-06 17:22:44.280 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: doing protocol 2: i = 0
+2022-10-06 17:22:45.972 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol 1 public device: i = 1
+2022-10-06 17:22:45.973 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: device Public Dum done!
+2022-10-06 17:22:45.977 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol1: executing wait_for_operation on Virtual Operation
+2022-10-06 17:22:45.978 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol1: executing do_something on dum1
+2022-10-06 17:22:45.978 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum1 executing do_something with arguments {'output': 'protocol 1'}; Description: None
+2022-10-06 17:22:47.188 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: doing protocol 2: i = 1
+2022-10-06 17:22:47.188 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: device dum2 done!
+2022-10-06 17:22:47.188 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol2: executing do_something on dum2
+2022-10-06 17:22:47.188 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent dum2 executing do_something with arguments {'output': 'protocol 2-2'}; Description: None
+2022-10-06 17:22:47.419 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum1: doing protocol 1: i = 0
+2022-10-06 17:22:48.500 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: doing protocol 2-2: i = 0
+2022-10-06 17:22:48.732 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum1: doing protocol 1: i = 1
+2022-10-06 17:22:48.733 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum1: device dum1 done!
+2022-10-06 17:22:48.733 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol1: executing do_something on Public Dum
+2022-10-06 17:22:48.767 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent Public Dum executing do_something with arguments {'output': 'protocol1 public'}; Description: None
+2022-10-06 17:22:50.637 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol1 public: i = 0
+2022-10-06 17:22:51.061 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: doing protocol 2-2: i = 1
+2022-10-06 17:22:51.062 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: device dum2 done!
+2022-10-06 17:22:51.062 | INFO     | Chemingon.core.experiment:_execute_protocol:453 - Protocol test protocol2: executing do_something on Public Dum
+2022-10-06 17:22:52.812 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol1 public: i = 1
+2022-10-06 17:22:52.812 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: device Public Dum done!
+2022-10-06 17:22:52.824 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol1: finished
+2022-10-06 17:22:52.913 | INFO     | Chemingon.core.experiment:_execute_operation:75 - Device DummyComponent Public Dum executing do_something with arguments {'output': 'protocol2 public'}; Description: None
+2022-10-06 17:22:55.397 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol2 public: i = 0
+2022-10-06 17:22:56.707 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: doing protocol2 public: i = 1
+2022-10-06 17:22:56.707 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: device Public Dum done!
+2022-10-06 17:22:56.713 | INFO     | Chemingon.core.experiment:_execute_protocol:493 - Protocol test protocol2: finished
+2022-10-06 17:22:56.814 | INFO     | Chemingon.core.experiment:start_master_operators:348 - Closing all devices
+2022-10-06 17:22:56.816 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens2: Terminated and data saved
+2022-10-06 17:22:56.817 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens1: Terminated and data saved
+2022-10-06 17:22:56.818 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dumSen 1: Terminated and data saved
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum3: dum3 disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum2: dum2 disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum1: dum1 disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens2: Closed
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 2: combined dum 2 disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dum 1: combined dum 1 disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device combined dumSen 1: Closed
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from public device Public Dum: Public Dum disconnected
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device sens1: Closed
+2022-10-06 17:22:56.819 | DEBUG    | Chemingon.components.stdlib.component:log:72 - Log from device dum4: dum4 disconnected
+2022-10-06 17:22:57.143 | INFO     | Chemingon.core.experiment:start_master_operators:357 - End of experiment
