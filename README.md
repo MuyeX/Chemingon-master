@@ -105,6 +105,8 @@ Finally, simply start the graphical user interface:
 ```python
 exp.start_jupyter_ui()
 ```
+Click the "Start" button to commence. The log file and data files are saved in the "experiment_results" folder in the same 
+directory as you .ipynb file.
 
 ## Example of Jupyter UI
 ![image](https://github.com/MuyeX/Chemingon-master/blob/main/example_pics/GUI_running_1.png)
