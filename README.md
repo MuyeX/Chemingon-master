@@ -18,7 +18,7 @@ components can be custom defined by inheriting the Component, Sensor, and Combin
 type of the equipment.
 
 For a simple demonstration, we can define some dummy components here:
-```jupyterpython
+```python
 from Chemingon import DummyComponent, DummySensor, DummyCombinedDevice
 
 dumComp1 = DummyComponent("dum1")
@@ -39,7 +39,7 @@ This is a crucial feature to implement multichannel reactions and will be explai
 ### Apparatus
 With the components defined, we can now move on to creating an `Apparatus`, which contains all components used in 
 the experiment:
-```jupyterpython
+```python
 from Chemingon import Apparatus
 
 apparatus_test = Apparatus("dummy test")
@@ -61,7 +61,7 @@ executed after the operation is done; however, by setting it to False, one can s
 or a shortcut `quick_add()` can be used without the need to define an `Operation` object. The operations must be added in 
 the order of execution.
 
-```jupyterpython
+```python
 from Chemingon import Protocol, VirtualOperation, Operation
 
 # defining the Protocol
@@ -94,7 +94,7 @@ protocol_test2.quick_add(publicComp, 'do_something', kwargs = {'output': 'protoc
 The final step is to create an `Experiment` object, which puts everything we have defined previously together and 
 execute the experiment. It is required to define the number of channels for the `Experiment`. The protocols can then be
 added to each channel of the experiment.
-```jupyterpython
+```python
 from Chemingon import Experiment
 exp = Experiment(apparatus_test, channels=4, keep_running=False)
 exp.add_protocol(protocol_test1, channel=1)
@@ -102,6 +102,6 @@ exp.add_protocol(protocol_test2, channel=2)
 ```
 
 Finally, simply start the graphical user interface:
-```jupyterpython
+```python
 exp.start_jupyter_ui()
 ```
