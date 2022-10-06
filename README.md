@@ -1,5 +1,5 @@
 # Chemingon
-Chemingon provides a framework for parallel lab automations.
+Chemingon provides a handy framework for parallel lab automations.
 Unlike conventional lab automation systems, where the operations are conducted sequentially,
 with the help of Chemingon, multiple reactions can be done on the same apparatus in a parallel manner efficiently. 
 Features: 
@@ -96,7 +96,7 @@ execute the experiment. It is required to define the number of channels for the 
 added to each channel of the experiment.
 ```python
 from Chemingon import Experiment
-exp = Experiment(apparatus_test, channels=4, keep_running=False)
+exp = Experiment(apparatus_test, channels=2, keep_running=False)
 exp.add_protocol(protocol_test1, channel=1)
 exp.add_protocol(protocol_test2, channel=2)
 ```
@@ -106,6 +106,27 @@ Finally, simply start the graphical user interface:
 exp.start_jupyter_ui()
 ```
 
-## GUI
+## Example of Jupyter UI
 ![image](https://github.com/MuyeX/Chemingon-master/blob/main/example_pics/GUI_running_1.png)
 ![image](https://github.com/MuyeX/Chemingon-master/blob/main/example_pics/GUI_running_2.png)
+
+## How are the tasks scheduled?
+Remember that we have defined several channels when creating our `Experiment`? Basically, the operations and protocols
+are executed sequentially within a channel, while different channels run in parallel.
+
+In the simplest situation, each channel has its own instruments and does not interfere with other channels. But in 
+reality, the instrument required for certain steps is often shared between the channels. For example, an HPLC can be
+shared by everyone in the lab for various projects. In such cases, Chemingon applies a first come, first served system.
+Upon creation, the "is_public" tag of each component could be set, which is by default False. According to the tag,
+all components are divided into public components, which are shared by all channels, and private components, fully
+occupied by the channel and does not interfere with others. When an operation involving a public component is reached, 
+it queues up at the point and wait to be done before moving on.
+
+For more exquisite controls of the schedule, the `block_public` argument is introduced for sub-protocol. When the 
+`block_public` option is True, the sub-protocol will fully occupy the public components used during the period of
+execution. In other words, no other operations is executed on these components from the beginning to the end of the 
+sub-protocol.
+
+## Work safely
+Keep an eye on your apparatus in case any error occurs. To reduce the errors in the codes, it is recommended
+to validate the protocols using the dry-run option before actual testing with the instruments.
