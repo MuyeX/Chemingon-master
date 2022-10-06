@@ -1,7 +1,7 @@
 # Chemingon
 Chemingon provides a handy framework for parallel lab automations.
 Unlike conventional lab automation systems, where the operations are conducted sequentially,
-with the help of Chemingon, multiple reactions can be done on the same apparatus in a parallel manner efficiently. 
+with the help of Chemingon, multiple reactions can be done on the same apparatus efficiently in a parallel manner. 
 Features: 
 - Automated task scheduling 
 - User extensibility
