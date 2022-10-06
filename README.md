@@ -107,3 +107,5 @@ exp.start_jupyter_ui()
 ```
 
 ## GUI
+![image](https://github.com/MuyeX/Chemingon-master/blob/main/example_pics/GUI_1.png)
+![image](https://github.com/MuyeX/Chemingon-master/blob/main/example_pics/GUI_2.png)
