@@ -1,5 +1,5 @@
 # Chemingon
-Chemingon provides a framework for lab automations in parallel.
+Chemingon provides a framework for parallel lab automations.
 Unlike conventional lab automation systems, where the operations are conducted sequentially,
 with the help of Chemingon, multiple reactions can be done on the same apparatus in a parallel manner efficiently. 
 Features: 
@@ -105,3 +105,5 @@ Finally, simply start the graphical user interface:
 ```python
 exp.start_jupyter_ui()
 ```
+
+## GUI
