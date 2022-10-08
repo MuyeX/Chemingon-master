@@ -53,7 +53,7 @@ As demonstrated above, there are two methods for adding components to an `Appara
 takes in a list of components, while the `.add_component()` method receives a single component.
 
 ### Operation and Protocol
-To inform the programme about how the experiments are conducted, we have to save a series of `Operation` in a `Protocol` object. 
+To inform the program about how the experiments are conducted, we have to save a series of `Operation` in a `Protocol` object. 
 An `Operation` is a single movement of a component. The command, which is a method defined in the component's class, is passed
 as a string, followed by the arguments as a dictionary. The wait option is True by default, where the following steps are
 executed after the operation is done; however, by setting it to False, one can still wait for it using a VirtualOperation 
