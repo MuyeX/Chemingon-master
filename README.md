@@ -132,3 +132,7 @@ sub-protocol.
 ## Work safely
 Keep an eye on your apparatus in case any error occurs. To reduce the errors in the codes, it is recommended
 to validate the protocols using the dry-run option before actual testing with the instruments.
+
+## More
+More instructions and contents on error handling, APIs for customised components, protocols input from files, 
+etc. to be added.
